@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/slnx.sqlite
+/.vs
+/src/Exemplo.Api/bin/Debug/netcoreapp3.1
+/src/Exemplo.Api/obj
+/src/Exemplo.Api.Integration.Tests/bin/Debug/netcoreapp3.1
+/src/Exemplo.Api.Integration.Tests/obj
+/src/Exemplo.Application/bin/Debug/netcoreapp3.1
+/src/Exemplo.Application/obj
+/src/Exemplo.Domain/bin/Debug/netcoreapp3.1
+/src/Exemplo.Domain/obj
+/src/Exemplo.Infrastructure/obj
+/src/Exemplo.Repository/bin/Debug/netcoreapp3.1
+/src/Exemplo.Repository/obj

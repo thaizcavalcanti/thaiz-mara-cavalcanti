@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\RepositorioExemplos\Teste\src\Teste.Api\Teste.Api.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\CadastroTesteController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+    <PackageReference Include="NSwag.AspNetCore" Version="13.13.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Exemplo.Application\Exemplo.Application.csproj" />
+    <ProjectReference Include="..\Exemplo.Repository\Exemplo.Repository.csproj" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+ 
+
+</Project>
